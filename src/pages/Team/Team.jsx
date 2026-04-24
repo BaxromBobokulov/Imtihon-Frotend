@@ -9,11 +9,9 @@ export default function Team() {
                 <Navbar />
             </header>
 
-            {/* Profile Section */}
             <section className="flex justify-center items-center bg-[#FFFFFF] py-[96px]">
                 <div className="flex flex-col items-center text-center">
-                    {/* Avatar */}
-                    <div className="w-[160px] h-[160px] rounded-full overflow-hidden border-[4px] border-[#444CFC]">
+                    <div className="w-[160px] h-[160px] rounded-full overflow-hidden">
                         <img
                             src="./images/Image (11).png"
                             alt="Javena Melo"
@@ -21,17 +19,14 @@ export default function Team() {
                         />
                     </div>
 
-                    {/* Name */}
                     <h1 className="font-display font-semibold text-[28px] leading-[36px] text-[#232536] mt-[24px]">
                         Javena Melo
                     </h1>
 
-                    {/* Role tag */}
-                    <span className="inline-block mt-[8px] px-[12px] py-[2px] bg-[#FFE6D2] font-display font-normal text-[12px] leading-[20px] text-[#232536] tracking-[2px] uppercase">
+                    <span className="inline-block mt-[8px] px-[12px] py-[2px] font-display font-normal text-[12px] leading-[20px] text-[#232536] tracking-[2px] uppercase">
                         CEO
                     </span>
 
-                    {/* Bio */}
                     <p className="w-[480px] font-display font-normal text-[16px] leading-[24px] text-[#5D5F6D] mt-[16px]">
                         Through True Rich Attended does no end it his mother since real had half every him case in
                         packages enquire we up ecstatic unsatiable.
